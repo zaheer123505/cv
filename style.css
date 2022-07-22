@@ -1,0 +1,133 @@
+/* css reset */
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  background-image: url("img/dumbbell-g7bcc52fc8_1920.jpg");
+  height: 100vh;
+  /* width: 100vw; */
+  /* height: 442px; */
+}
+.gym {
+  font-size: larger;
+  color: rgb(15, 188, 131);
+  /* margin: 1rem; */
+  margin-left: -50%;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid rgb(3, 178, 226); */
+  position: absolute;
+  left: 44px;
+  top: 20px;
+}
+.left img {
+  width: 136px;
+}
+.left div {
+  text-align: center;
+  line-height: 29px;
+  font-size: 20px;
+}
+.mid {
+  display: block;
+  /* flex-shrink: 20 ; */
+  flex-basis: auto;
+  width: 600px;
+  top: 80px;
+  padding: initial;
+  margin: 22px auto;
+  /* border: 2px solid rgb(185, 226, 3); */
+}
+.right {
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 34px;
+  /* border: 2px solid rgb(240, 9, 9); */
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  /* color: white; */
+  display: inline-block;
+}
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 34px 23px;
+  font-size: 20px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gray;
+}
+.btn {
+  margin: 0px 4px;
+  padding: 4px 14px;
+  border-radius: 8px;
+  border: 2px solid rgb(12, 61, 93);
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: grey;
+}
+.container {
+  /* border: 2px solid blue; */
+  /* top: 444px 554px; */
+  margin: 106px 100px;
+  /* margin: 2px 2px; */
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 464px;
+  border-radius: 10px;
+  margin: 9px auto;
+  padding: 11px;
+  border: 2px solid grey;
+  font-size: medium;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 23%;
+  margin: auto;
+}
+.card {
+   height: 220px;
+  width: 220px; 
+  /* width: 20px; */
+  height: fit-content;
+  /* background: #2ebaf1; */
+  background-color: grey;
+  /* color: #ec560a; */
+  color: 200px solid red;
+  padding:22px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.text {
+  margin-top: 2.0em;
+  /* padding: 20px; */
+  transition: 1s ease;
+  transform: translateY(100px);
+  /* opacity: 0; */
+}
+.card:hover .text {
+  transform: translateY(-5px);
+  /* opacity: 1; */
+}
